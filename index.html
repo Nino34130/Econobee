@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Econobee</title>
 </head>
 <body>
-<h1 class="text-black">Test de Tailwind CSS</h1>
+<!--Nav-bar-->
+<div id="nav-bar" class="flex justify-around mt-8">
+    <div id="title" class="">
+        <h1 class="text-black font-bold text-xl mt-2">EconoBee</h1>
+    </div>
+    <div id="link" class="">
+        <ul class="flex">
+            <a href="" class="mr-10 font-Medium mt-2"><li>A propos</li></a>
+            <a href="" class="mr-10 font-Medium mt-2"><li>Découvrir</li></a>
+            <a href="" class="mr-10 font-Medium mt-2"><li>Les articles</li></a>
+            <a href="" id="sabonner" class="mr-10 font-bold rounded-full"><li>S'abonner</li></a>
+        </ul>
+    </div>
+</div>
+
+<!--Presentation-->
+<div id="presentation" class="flex justify-around mt-20">
+    <div id="txt" class="mt-5">
+        <h1 id="titre-pr" class="text-xl font-bold">La newsletter pour savourer le meilleur de la recherche en économie</h1>
+        <p id="description" class="w-1/2 mt-10">Chaque semaine, je t’explique de façon cool le meilleur de la recherche en économie. C’est bon comme un gâteau au miel. </p>
+        <div id="button" class="mt-8">
+            <a href="" id="btn-subsribe" class="rounded-full mr-10">S'abonner</a>
+            <a href="" id="btn-discover" class="rounded-full">Découvrir</a>
+        </div>
+    </div>
+    <div class="img"><img width="500" src="./img/image-1.png" alt=""></div>
+
+</div>
+
+
+
 </body>
 </html>

@@ -1,0 +1,53 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 bg-blue-600 text-white rounded;
+    }
+}
+
+@font-face {
+    font-family: "galano";
+    src: url("../fonts/galano/GalanoGrotesqueRegular.otf") format("truetype");
+}
+@font-face {
+    font-family: "Bold-galano";
+    src: url("../fonts/galano/GalanoGrotesqueBold.otf") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    font-family: galano;
+}
+
+#sabonner{
+    background-color: #EECF64;
+    padding: 10px 20px;
+}
+#titre-pr{
+    font-family: Bold-galano;
+    font-size: 36px;
+    width: 509px;
+    line-height: 55px;
+}
+#presentation{
+    margin-left:50px;
+    margin-right: 50px;
+}
+#description{
+    font-family: 'Ubuntu', sans-serif;
+}
+#btn-subsribe{
+    background-color: #EECF64;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+#btn-discover{
+    background-color: transparent;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 3px solid #EECF64;
+    color: #EECF64;
+}
