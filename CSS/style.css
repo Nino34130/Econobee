@@ -20,6 +20,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body{
     font-family: galano;
+    max-width: 1100px;
+    margin: auto;
+    /*margin-left: 150px;*/
+    /*margin-right: 150px;*/
 }
 
 #sabonner{
@@ -32,10 +36,7 @@ body{
     width: 509px;
     line-height: 55px;
 }
-#presentation{
-    margin-left:50px;
-    margin-right: 50px;
-}
+
 #description{
     font-family: 'Ubuntu', sans-serif;
 }
