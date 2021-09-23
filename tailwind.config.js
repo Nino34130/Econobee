@@ -11,7 +11,7 @@ module.exports = {
     backgroundColor: theme => ({
       ...theme('colors'),
       'primary': '#EECF64',
-      'secondary': '#FAF9F9',
+      'secondary': '#545454',
       'danger': '#e3342f',
     })
   },

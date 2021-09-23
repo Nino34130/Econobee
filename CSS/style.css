@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,15 +18,20 @@
     font-family: "Bold-galano";
     src: url("../fonts/galano/GalanoGrotesqueBold.otf") format("truetype");
 }
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
 body{
-    font-family: galano;
+    font-family: 'Sofia Pro', sans-serif;
     max-width: 1100px;
+    font-weight: 400;
     margin: auto;
+    padding-bottom: 50px;
     /*margin-left: 150px;*/
     /*margin-right: 150px;*/
 }
-
+#link{
+    color: #545454;
+}
 #sabonner{
     background-color: #EECF64;
     padding: 10px 20px;
@@ -33,22 +39,42 @@ body{
 #titre-pr{
     font-family: Bold-galano;
     font-size: 36px;
+    color:#545454;
     width: 509px;
     line-height: 55px;
 }
 
 #description{
-    font-family: 'Ubuntu', sans-serif;
+    color: #939393;
 }
 #btn-subsribe{
     background-color: #EECF64;
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 10px 50px;
+    color: #939393;
 }
 #btn-discover{
     background-color: transparent;
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border: 3px solid #EECF64;
     color: #EECF64;
+}
+#text-c{
+    color: #939393;
+    width: 320px;
+
+}
+#img-emoji-abeille{
+    background-color: #F2F2F2;
+    padding: 12px;
+
+    border-radius: 200px;
+}
+#titre-c{
+    margin-top: 20px;
+}
+#text-c2{
+    color: #939393;
+    width: 340px;
 }
