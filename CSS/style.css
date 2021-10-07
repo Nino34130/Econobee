@@ -94,3 +94,29 @@ body{
     display: block;
     text-align: center;
 }
+#titres-part5{
+    font-size: 30px;
+    color: #545454;
+}
+#titres-part5-description{
+    color: #92929292;
+}
+#container-associations{
+    background-color: #FAF9F9;
+}
+#description-associations{
+    color: #929292;
+    font-size: 20px;
+}
+#container-associations{
+    display: block;
+    text-align: center;
+
+}
+#btn-associations{
+    background-color: #EE8564;
+    border-radius: 99px;
+    color: white;
+    padding: 5px 40px;
+    font-size: 16px;
+}
