@@ -22,12 +22,14 @@
 
 body{
     font-family: 'Sofia Pro', sans-serif;
+    /*margin-left: 150px;*/
+    /*margin-right: 150px;*/
+}
+#center{
     max-width: 1100px;
     font-weight: 400;
     margin: auto;
     padding-bottom: 50px;
-    /*margin-left: 150px;*/
-    /*margin-right: 150px;*/
 }
 #link{
     color: #545454;
@@ -119,4 +121,63 @@ body{
     color: white;
     padding: 5px 40px;
     font-size: 16px;
+}
+#container-tarifs{
+    background: url("../img/bg-tarifs.png") no-repeat center;
+}
+#title-tarifs{
+    font-size: 32px;
+    color: #545454;
+    font-weight: 700;
+}
+#card-tarifs{
+    width: 345px;
+    height: 562px;
+    margin-right: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 2.49%, rgba(255, 255, 255, 0.1) 97.15%, rgba(255, 255, 255, 0.1) 97.15%);
+    border: 3px solid #F3F3F3;
+    box-sizing: border-box;
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+}
+#prix{
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 20px;
+}
+#price{
+    display: flex;
+    justify-content: center;
+}
+hr{
+
+    margin-top: 20px;
+}
+#text-detail-tarifs{
+    text-align:start;
+    line-height: 20px;
+    color: #545454;
+}
+#btn-subsribe-tarifs-1{
+    background-color: #A4B2E1;
+    color: #3F3D56;
+    padding: 10px 90px;
+    border-radius: 99px;
+    margin-top: 90px;
+}
+#btn-subsribe-tarifs-2{
+    background-color:#EECF64;
+    color: #564d3d;
+    font-weight: 700;
+    padding: 10px 90px;
+    border-radius: 99px;
+    margin-top: 90px;
+}
+#btn-subsribe-tarifs-3{
+    background-color: #A4B2E1;
+    color: #3F3D56;
+    font-weight: 700;
+    padding: 10px 90px;
+    border-radius: 99px;
+    margin-top: 69px;
 }

@@ -9,7 +9,8 @@
 </head>
 <body>
 <!--Nav-bar-->
-<div id="nav-bar" class="flex justify-between mt-8">
+<div id="center">
+<div id="nav-bar, center" class="flex justify-between mt-8">
     <div id="title" class="">
         <img width="150" src="./img/logotype.png" alt="">
     </div>
@@ -24,7 +25,7 @@
 </div>
 
 <!--Partie 1-->
-<div id="presentation" class="flex justify-between mt-20">
+<div id="presentation, center" class="flex justify-between mt-20">
     <div id="txt" class="mt-5">
         <h1 id="titre-pr" class="text-xl font-bold">La newsletter pour savourer le meilleur de la recherche en économie</h1>
         <p id="description" class="w-1/2 mt-5">Chaque semaine, je t’explique de façon cool le meilleur de la recherche en économie. C’est bon comme un gâteau au miel. </p>
@@ -37,7 +38,7 @@
 </div>
 
 <!--Partie 2-->
-<div class="mt-36 flex justify-around" id="text-presentation">
+<div class="mt-36 flex justify-around" id="text-presentation, center">
     <div id="cad-1">
         <div class="flex" id="titres">
             <div id="bg-abeille">
@@ -74,7 +75,7 @@
 </div>
 
 <!--Partie 3-->
-<div id="title-description-recette" class="flex justify-center mt-28">
+<div id="title-description-recette, center" class="flex justify-center mt-28">
     <h1 id="h1-title-description-recette" class="text-xl font-bold">Decouvrez le contenu de notre recette</h1> <br>
 </div>
 <div id="title-description-news-explore" class="flex justify-center mt-4">
@@ -119,7 +120,7 @@
 </div>
 
 <!--Partie 4-->
-<div id="part-4" class="mt-28">
+<div id="part-4, center" class="mt-28">
     <!--titre-->
     <div id="titre-part4" class="block">
         <p id="h1-title-description-recette" class="text-xl font-bold">Il faut toujours goûter avant non ?</p>
@@ -205,7 +206,7 @@
 </div>
 
 
-<div id="part5">
+<div id="part5, center">
     <div id="titre-part4" class="mt-28">
         <p id="titres-part5" class="text-xl font-bold">Une recette basée sur le meilleur de la science économique</p>
         <p id="titres-part5-description" class="mt-4">Il faut les meilleures fleurs pour faire le meilleur miel</p>
@@ -253,13 +254,79 @@
         </div>
     </div>
 </div>
-
+</div>
 
 <div id="container-associations" class="mt-28 p-10">
     <p id="h1-title-description-recette" class="text-xl font-bold">10% des bénéfices reversés à une association ❤️ </p>
     <p id="description-associations" class="mt-4">Parler des sujets de sociétés c’est bien, aider de façon pratique c’est encore mieux. Chaque mois une association différente est choisie par les abonné.e.s payants !</p>
     <button id="btn-associations" class="mt-10">En savoir plus</button>
 </div>
+
+<div id="container-tarifs" class="mt-28 p-10">
+    <p id="title-tarifs" style="color: #545454; text-align: center">Combien coûte l’abonnement ?</p>
+    <div class="flex justify-center">
+        <div id="container-flex-tarifs" style="text-align: center" class="flex justify-arround mt-18 p-20">
+            <div id="card-tarifs" class="p-10">
+                <div id="title-text-car-tarifs">
+                    <p style="font-size: 24px; color: #545454; font-weight: 700">Abonnement gratuit</p>
+                    <p style="color: #545454; font-size: 16px; font-weight: 400">Pour tester</p>
+                    <div id="price">
+                    <p id="prix">0€</p> <p class="mt-4">/ mois</p>
+                    </div>
+                    <hr>
+                    <div id="text-detail-tarifs" class="mb-14">
+                        <p style="margin-bottom: 20px; margin-top: 80px">Deux Newsletters par mois</p>
+                        <p>Bonus : Un livre recommandé par mois</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div id="container-btn">
+                        <button id="btn-subsribe-tarifs-1">M'abonner</button>
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="card-tarifs" class="p-10">
+                <div id="title-text-car-tarifs">
+                    <p style="font-size: 24px; color: #545454; font-weight: 700">Abonnement Annuel</p>
+                    <p style="color: #545454; font-size: 16px; font-weight: 400">Le plus économique</p>
+                    <div id="price">
+                    <p id="prix">35€*</p> <p class="mt-4">/ an</p>
+                    </div>
+                    <hr>
+                    <div id="text-detail-tarifs">
+                        <p style="margin-bottom: 20px; margin-top: 80px">25% de reduction par rapport l'abonnement mensuel</p>
+                        <p>7 jours d'essais gratuit</p>
+                        <p style="margin-top: 20px;">le meme contenue que l'offre mensuel</p>
+                    </div>
+                    <div id="container-btn">
+                        <button id="btn-subsribe-tarifs-2">M'abonner</button>
+                    </div>
+                </div>
+            </div>
+            <div id="card-tarifs" class="p-10">
+                <div id="title-text-car-tarifs">
+                    <p style="font-size: 24px; color: #545454; font-weight: 700">Abonnement Mensuel</p>
+                    <p style="color: #545454; font-size: 16px; font-weight: 400">Simple et sans engagement</p>
+                    <div id="price">
+                    <p id="prix">3.5€</p> <p class="mt-4">/ mois</p>
+                    </div>
+                    <hr>
+                    <div id="text-detail-tarifs">
+                        <p style="margin-bottom: 20px; margin-top: 80px">Votre newletter tous les mardi et Jeudi</p>
+                        <p>Un article long sur un theme par mois</p>
+                        <p style="margin-top: 20px">Bonus : un livre recommandé par mois</p>
+                    </div>
+                    <div id="container-btn">
+                        <button id="btn-subsribe-tarifs-3">M'abonner</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 </body>
