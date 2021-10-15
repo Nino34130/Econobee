@@ -195,3 +195,10 @@ hr{
 #footer-flex{
     margin-top: 200px;
 }
+#titres-footer{
+    font-weight: 700;
+    font-size: 18px;
+}
+li{
+    color: #939393;
+}
